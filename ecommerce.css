@@ -1,0 +1,93 @@
+body , h2, p, label, input, button{
+    margin:0;
+    padding:0;
+
+}
+h1{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: larger;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    
+    background-image: url('ecomimg.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    background-color:#b5ec6c;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+}
+main{
+    padding:2rem;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding:1rem 0;
+    background-color:#943939;
+    color:white;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+.signup-form, .signin-form{
+    max-width:300px;
+    margin:0 auto;
+    color:black;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width:100%;
+    padding:8px;
+    margin-bottom: 10px;
+    border:1px solid white;
+    border-radius: 3px;
+}
+button{
+    display:inline-block;
+    padding:8px 20px;
+    background-color:#333;
+    color:#fff;
+    border:none;
+    border-radius:3px;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color:#555;
+}
+ 
+nav{
+    background-color:#393a39;
+}
+ .menu{
+     display:flex;
+     list-style:none;
+     padding:10px;
+ }
+  .menu li{
+     margin-right:20px;
+  }
+  .menu a{
+     color:white ;
+     text-decoration: none;
+  }
+  form{
+    width: 18%;
+    background-color:rgb(184, 194, 133);
+    padding: 50px;
+    border-radius: 10px;
+    margin: auto;
+}
